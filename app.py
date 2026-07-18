@@ -15,7 +15,7 @@ ALLOWED_EXTENSIONS = {"png", "jpg", "jpeg"}
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(RESULT_FOLDER, exist_ok=True)
 
-MODEL_PATH = "/content/drive/MyDrive/Object_Detection_Deployment/best.pt"
+MODEL_PATH = "best.pt"
 model = YOLO(MODEL_PATH)
 
 
